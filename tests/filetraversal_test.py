@@ -1,5 +1,4 @@
 import os
-
 from filetraversal import FileTraversal
 
 test_path = os.path.join(os.getcwd(), 'tests', 'mock_directory')
