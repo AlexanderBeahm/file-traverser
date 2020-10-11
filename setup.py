@@ -12,7 +12,7 @@ with open("README.md", "r") as fh:
 
 setup(
     name="file_traversal",
-    version="0.1.2",
+    version="0.1.3",
     author="Alex Beahm",
     author_email="alexanderbeahm@gmail.com",
     description="Simple injectible rescursive file system processor.",
