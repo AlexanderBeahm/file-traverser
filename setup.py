@@ -11,15 +11,15 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setup(
-    name="file-traversal",
-    version="0.1.0",
+    name="file_traversal",
+    version="0.1.2",
     author="Alex Beahm",
     author_email="alexanderbeahm@gmail.com",
     description="Simple injectible rescursive file system processor.",
     long_description=README,
     long_description_content_type="text/markdown",
     url="https://github.com/AlexanderBeahm/file-traverser.git",
-    packages=["file-traversal"],
+    packages=["file_traversal"],
     include_package_data=True,
     classifiers=[
         "Programming Language :: Python :: 3",
